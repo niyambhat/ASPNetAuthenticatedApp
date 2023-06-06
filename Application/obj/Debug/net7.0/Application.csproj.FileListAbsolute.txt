@@ -1,0 +1,17 @@
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/bin/Debug/net7.0/Application.deps.json
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/bin/Debug/net7.0/Application.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/bin/Debug/net7.0/Application.pdb
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/bin/Debug/net7.0/Domain.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/bin/Debug/net7.0/Persistence.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/bin/Debug/net7.0/Domain.pdb
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/bin/Debug/net7.0/Persistence.pdb
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/Application.csproj.AssemblyReference.cache
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/Application.AssemblyInfoInputs.cache
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/Application.AssemblyInfo.cs
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/Application.csproj.CoreCompileInputs.cache
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/Application.csproj.CopyComplete
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/Application.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/refint/Application.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/Application.pdb
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/obj/Debug/net7.0/ref/Application.dll
