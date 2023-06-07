@@ -73,3 +73,6 @@
 /Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/System.CodeDom.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/MediatR.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/MediatR.Contracts.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll

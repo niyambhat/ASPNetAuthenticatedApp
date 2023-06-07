@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "vPu4el3ruMr0p5e8CbJYotACMO+540GTMpv3B7s7CObjeQgOQGolQr9gpKZSmjQzvzk8TnFLI1A3yk2bjPK3NA==",
+  "dgSpecHash": "N8iOftPj1IpGJgZvUt6A2B72rH/+6qXFJL6tUGSstnSooR4gczK9oS3oMWgaAqhqNpZWwFmbVssJvrS38vfGoA==",
   "success": true,
   "projectFilePath": "/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/niyambhat/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/niyambhat/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/niyambhat/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/niyambhat/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/niyambhat/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "/Users/niyambhat/.nuget/packages/microsoft.data.sqlite.core/7.0.5/microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
     "/Users/niyambhat/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
