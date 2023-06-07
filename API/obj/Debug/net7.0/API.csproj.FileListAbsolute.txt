@@ -76,3 +76,9 @@
 /Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/MediatR.dll
 /Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/MediatR.Contracts.dll
 /Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/API/bin/Debug/net7.0/Microsoft.Extensions.Options.dll

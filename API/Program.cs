@@ -1,31 +1,16 @@
 
+using API.Extensions;
 using Application.Activities;
+using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<DataContext>(opt => {
-    opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
-
-builder.Services.AddCors(opt => {
-    opt.AddPolicy("CorsPolicy", policy => {
-        policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("http://localhost:3000");
-    });
-});
-builder.Services.AddMediatR(typeof(List.Handler));
-
-
-
+builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddIdentityServices(builder.Configuration);
 var app = builder.Build();
 app.UseCors("CorsPolicy");
 
@@ -44,8 +29,9 @@ var services = scope.ServiceProvider;
 try
 {
     var context = services.GetRequiredService<DataContext>();
+    var userManager = services.GetRequiredService<Microsoft.AspNetCore.Identity.UserManager<User>>();
     await context.Database.MigrateAsync();
-    await Seed.SeedData(context);
+    await Seed.SeedData(context, userManager);
 }
 catch (Exception ex)
 {

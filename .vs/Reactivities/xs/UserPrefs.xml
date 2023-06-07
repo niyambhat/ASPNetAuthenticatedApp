@@ -1,20 +1,23 @@
 ﻿<Properties StartupConfiguration="{B1CADD49-6306-4F6D-8B13-BCF62A21D8B4}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/ApplicationServiceExtensions.cs">
     <Files>
-      <File FileName="Persistence/DataContext.cs" Line="17" Column="1" />
-      <File FileName="API/Controllers/WeatherForecastController.cs" Line="17" Column="6" />
-      <File FileName="API/Controllers/BaseApiController.cs" Line="16" Column="1" />
-      <File FileName="API/Controllers/ActivitiesController.cs" Line="30" Column="2" />
-      <File FileName="API/Program.cs" Line="42" Column="1" />
+      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" Line="29" Column="1" />
+      <File FileName="API/Extensions/IdentityServiceExtensions.cs" Line="12" Column="1" />
+      <File FileName="API/Program.cs" Line="25" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Reactivities" expanded="True">
             <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Extensions" expanded="True" />
             </Node>
             <Node name="Domain" expanded="True" />
             <Node name="Persistence" expanded="True" />
@@ -23,10 +26,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
