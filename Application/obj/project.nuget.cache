@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2cQhcDNzh7RikLJV76Qy8CX67u1Cv7eQFdVSOuZCOCH0QnZU9eysFP281ykJbQTNq8hsucg2QH0ONxr8mxtj8w==",
+  "dgSpecHash": "Sf1973tOUca1MlkRFQqMrYjSfnrGDByxp06C3ufRvpliFKO2BTUbAdX0R0iNZBkqXofA20yIIZ2HYu+G7dZlTw==",
   "success": true,
   "projectFilePath": "/Users/niyambhat/Desktop/Neil Cummins/demo/Reactivities/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/niyambhat/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/niyambhat/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/niyambhat/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/niyambhat/.nuget/packages/microsoft.data.sqlite.core/7.0.5/microsoft.data.sqlite.core.7.0.5.nupkg.sha512",
     "/Users/niyambhat/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "/Users/niyambhat/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
