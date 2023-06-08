@@ -5,7 +5,7 @@ interface Props{
     openForm:()=>void
 }
 
-function Navbar({openForm}:Props) {
+function Navbar() {
   return (
    <Menu inverted fixed="top">
     <Container>
@@ -16,7 +16,7 @@ function Navbar({openForm}:Props) {
             Activities
         </Menu.Item>
         <Menu.Item>
-            <Button positive content="Create Activity" onClick={openForm}/>
+            {/* <Button positive content="Create Activity" onClick={openForm}/> */}
         </Menu.Item>
     </Container>
    </Menu>

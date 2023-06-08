@@ -6,20 +6,20 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/ApplicationServiceExtensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Program.cs">
     <Files>
-      <File FileName="API/Extensions/ApplicationServiceExtensions.cs" Line="29" Column="1" />
-      <File FileName="API/Extensions/IdentityServiceExtensions.cs" Line="12" Column="1" />
-      <File FileName="API/Program.cs" Line="25" Column="24" />
+      <File FileName="API/Program.cs" Line="15" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Reactivities" expanded="True">
             <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DTO" expanded="True" />
               <Node name="Extensions" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
-            <Node name="Domain" expanded="True" />
             <Node name="Persistence" expanded="True" />
           </Node>
         </State>
