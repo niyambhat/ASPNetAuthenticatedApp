@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import { Activity } from '../../../models/Activity'
-import { Button, Item, Label, Segment } from 'semantic-ui-react'
+import { Button, Header, Item, Label, Segment } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
+import ActivityListItem from './ActivityListItem';
 
 interface Props {
   activities: Activity[],
@@ -8,46 +10,37 @@ interface Props {
   deleteActivity: (id:string) => void,
   submitting:boolean
 }
+
 function ActivityList({ activities, selectActivity,deleteActivity,submitting }: Props) {
-  const [target, setTarget] = useState('');
-  const handleACtivityDelete=(e:any ,id:string)=>{
-    setTarget(e.target.name);
-    deleteActivity(id);
-  }
+
+const groupedActivities: [string, Activity[]][] =  Object.entries(activities.reduce((activities:any, activity:any)=>{
+  const date = activity.date;
+  activities[date] = activities[date] ? [...activities[date], activity] : [activity];
+  return activities;
+}, {} as {[key:string] : Activity[]}))
+
   return (
-    <Segment>
+    <>
+    {groupedActivities.map(([group, activities])=>(
+      <Fragment key={group}>
+        <Header sub color="teal">
+          {group}
+        </Header>
+        <Segment>
       <Item.Group divided>
-        {activities && activities.map((item) => {
+        {activities.map((activity:Activity) => {
           return (
-            <Item key={item.id}>
-              <Item.Content>
-                <Item.Header as='a'>
-                  {item.title}
-                </Item.Header>
-                <Item.Meta>
-                  {item.date}
-                </Item.Meta>
-                <Item.Description>
-                  <div>{item.description}</div>
-                  <div>{item.city} {item.venue}</div>
-                </Item.Description>
-                <Item.Extra>
-                  <Button onClick={() => selectActivity(item.id)} floated="right" content="View" color="blue" />
-                  <Button 
-                  name={item.id}
-                  loading={submitting && target === item.id} 
-                  onClick={(e) => {
-                    handleACtivityDelete(e, item.id);
-                  }} floated="right" content="Delete" color="red" />
-                  <Label basic content={item.category} />
-                </Item.Extra>
-              </Item.Content>
-            </Item>
+            <ActivityListItem key={activity.id} activity={activity}/>
           )
         })
         }
       </Item.Group>
     </Segment>
+      </Fragment>
+    ))}  
+  
+    
+    </>
   )
 }
 

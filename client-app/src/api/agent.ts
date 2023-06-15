@@ -1,5 +1,6 @@
 import axios, { AxiosResponse } from "axios";
 import { Activity } from "../models/Activity";
+import { User, UserFormValues } from "../models/User";
 
 
 const sleep=(delay:number)=>{
@@ -16,6 +17,12 @@ axios.interceptors.response.use((response: AxiosResponse) => {
       }, 1000);
     });
   });
+
+axios.interceptors.request.use(config =>{
+  const token = localStorage.getItem('jwt');
+  if(token && config.headers) config.headers.Authorization = `Bearer ${token}`;
+  return config;
+})
   
 const responseBody =<T> (response:AxiosResponse<T>) => response.data
 const requests ={
@@ -33,8 +40,16 @@ const Activities ={
     delete:(id:string)=>axios.delete<void>(`/activities/${id}`),
 }
 
+const Account ={
+current: ()=>requests.get<User>('account'),
+login: (user:UserFormValues)=>requests.post('/account/login', user),
+register:(user: UserFormValues)=> requests.post<User>('account/register', user)
+}
+
+
 const agent ={
-    Activities
+    Activities,
+    Account
 }
 
 export default agent
