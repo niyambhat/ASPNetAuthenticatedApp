@@ -3,6 +3,7 @@ import React, { useContext } from 'react'
 import { Button, FormField, Label } from 'semantic-ui-react'
 import * as Yup from "yup";
 import { UserContext } from '../../UserContext';
+import ModalContainer from '../elements/ModalContainer';
 
 
 function LoginForm() {
@@ -40,6 +41,7 @@ const {login, submitting} = useContext(UserContext);
           </Form>
         )}
     </Formik>
+  
   )
 }
 

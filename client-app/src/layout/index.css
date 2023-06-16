@@ -43,3 +43,12 @@ body{
     width:100%;
   }
   
+
+  .modal form{
+    width:100%;
+  }
+
+
+  .modal{
+    max-width: 500px;
+  }
